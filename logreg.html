@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style/style.css">
+    <title>Login/Registration</title>
+</head>
+<body>
+    <header>
+        <div class="mainnavigation topnav">
+            <nav role="navigation">
+              <div id="menuToggle">
+                <input type="checkbox" />
+                <span></span>
+                <span></span>
+                <span></span>
+                <ul id="menu">
+                    <a href="index.html"><li>Home</li></a>
+                    <a href="offers.html"><li>Today's Offer</li></a>
+                    <a href="products.html"><li>See New Products</li></a>
+                    <a href="logreg.html"><li>Log in / Registration</li></a>
+                    <a href="contact.html"><li>Contact Us</li></a>
+                    <a href="404.html" target="_blank"><li>Show me more</li></a>
+                  </ul>
+              </div>     
+             </nav>    
+              <h1 class="logo">
+                  <a href="index.html">
+                      Thomstore
+                  </a>
+              </h1>
+              <div class="search-container">
+                <form action="/action_page.php">
+                  <input type="text" placeholder="Search.." name="search">
+                  <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+              </div>
+      <nav id="nav"></nav>
+
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <input type="checkbox" id="flip">
+            <div class="cover">
+              <div class="front">
+                <img src="pics/store.webp" alt="">
+                <div class="text">
+                  <span class="text-1">New offers every day <br> Great prices</span>
+                  <span class="text-2">Don't wait, join us</span>
+                </div>
+              </div>
+              <div class="back">
+                <div class="text">
+                  <span class="text-1">Complete miles of journey <br> with one step</span>
+                  <span class="text-2">Let's get started</span>
+                </div>
+              </div>
+            </div>
+            <div class="forms">
+                <div class="form-content">
+                  <div class="login-form">
+                    <div class="title">Log In</div>
+                  <form action="404.html">
+                    <div class="input-boxes">
+                      <div class="input-box">
+                        <i class="fas fa-envelope"></i>
+                        <input type="text" placeholder="Enter your email" required>
+                      </div>
+                      <div class="input-box">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" placeholder="Enter your password" required>
+                      </div>
+                      <div class="text"><a href="404.html">Forgot password?</a></div>
+                      <div class="button input-box">
+                        <input type="submit" value="Sumbit">
+                      </div>
+                      <div class="text sign-up-text">Don't have an account? <label for="flip">Sign up now</label></div>
+                    </div>
+                </form>
+              </div>
+                <div class="signup-form">
+                  <div class="title">Sign Up</div>
+                <form action="404.html">
+                    <div class="input-boxes">
+                      <div class="input-box">
+                        <i class="fas fa-user"></i>
+                        <input type="text" placeholder="Enter your name" required>
+                      </div>
+                      <div class="input-box">
+                        <i class="fas fa-envelope"></i>
+                        <input type="text" placeholder="Enter your email" required>
+                      </div>
+                      <div class="input-box">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" placeholder="Enter your password" required>
+                      </div>
+                      <div class="button input-box">
+                        <input type="submit" value="Sumbit">
+                      </div>
+                      <div class="text sign-up-text">Already have an account? <label for="flip">Login now</label></div>
+                    </div>
+    </main>
+    <footer>
+        <div class="contact">
+
+            <div class="conv">
+                <p>Join the conversation</p>
+                <div class="social social1"><a href="https://www.facebook.com/" target="_blank"></a></div>
+                <div class="social social2"><a href="http://www.twitter.com/" target="_blank" rel="noopener noreferrer"></a></div>
+                <div class="social social3"><a href="http://www.youtube.com/" target="_blank" rel="noopener noreferrer"></a></div>
+                <div class="social social4"><a href="http://www.instagram.com/" target="_blank" rel="noopener noreferrer"></a></div>
+            </div>
+
+            <div class="conect, flex">
+                <input type="text" placeholder="Sign up for the latest offers and discounts" name="mail">
+                <div class="signup">
+                <input type="submit" value="Sign Up">
+                </div>
+            </div>
+        </div>
+
+        <nav>
+            <ul class="ft1">
+                <li><a href="404.html">About</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="404.html">Help</a></li>
+                <li><a href="404.html">Advertising</a></li>
+            </ul>
+            <ul class="ft2">
+            <li><a href="404.html">Site Developers</a></li>
+            <li><a href="404.html">Privacy Policy</a></li>
+            <li><a href="404.html">Conditions of Use</a></li>
+            <li><a href="404.html">Interest-Based Ads</a></li>
+            </ul>
+        </nav>
+        <p class="rights"> © 2021-2022 by ThomStore, Inc.</p>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://kit.fontawesome.com/a6887b732f.js" crossorigin="anonymous"></script>
+    <script src="js/nav.js"></script>
+    <script src="js/indexslider.js"></script>
+</body>
+</html>
